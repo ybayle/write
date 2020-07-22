@@ -37,6 +37,6 @@
 - Type de rapport
 - Titre du rapport
 - Prénom et nom de l'écrivain
-- Prénoms et noms des encadrants et partenaires avec les rôles
+- Prénoms, noms et rôles des encadrants et partenaires
 - Date
 - Mention ou filigrane confidentiel
