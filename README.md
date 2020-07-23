@@ -3,6 +3,7 @@
 - Utiliser le présent pour rédiger plutôt que le passé ou le mélange du présent et du passé.
 - Citer une source dès qu'il y a une information qui est affirmée ou pour justifier un choix technique.
 - Ne pas commencer les phrases par en effet, de tout temps, car, donc.
+- Ne pas commencer une phrase par du participe présent (Étudiant en Master, je ...)
 - Ne pas utilise le langage parlé.
 - Éviter d'utiliser les parenthèses dans une phrase.
 - Ne pas utiliser `:` au milieu d'une phrase. Les `:` peuvent être utilisé pour introduire une énumération avec des tirets.
