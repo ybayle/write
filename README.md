@@ -7,7 +7,7 @@
 - Ne pas utiliser le langage parlé.
 - Être le plus précis possible et éviter `généralement`, `de tout temps`, `à l'heure où`, ...
 - Éviter d'utiliser les parenthèses dans une phrase.
-- Ne pas utiliser `:` au milieu d'une phrase. Les `:` peuvent être utilisé pour introduire une énumération avec des tirets.
+- Ne pas utiliser `:` au milieu d'une phrase. Les `:` peuvent être utilisés pour introduire une énumération avec des tirets.
 - Ne pas faire d'anglicisme. Il faut utiliser des mots français ou mettre en italique les mots provenant de langues étrangères.
 - Pour faciliter la relecture, la correction et le travail à plusieurs lors d'une rédaction avec latex, il faut une phrase par ligne.
 - Ne pas utiliser le première personne, excepté dans la section sur les remerciements.
