@@ -11,7 +11,7 @@
 - Ne pas faire d'anglicisme. Il faut utiliser des mots français ou mettre en italique les mots provenant de langues étrangères.
 - Pour faciliter la relecture, la correction et le travail à plusieurs lors d'une rédaction avec latex, il faut une phrase par ligne.
 - Ne pas utiliser le première personne, excepté dans la section sur les remerciements.
-- Pour les images, draw.io a une intégration dans Microsoft Visual Studio Code.
+- Pour les images, [draw.io](https://app.diagrams.net/) a une intégration dans [Microsoft Visual Studio Code](https://code.visualstudio.com/).
 
 ## Plan
 
@@ -23,8 +23,10 @@
   - Problématiques
   - Objectifs et jalons
   - Annonce du plan
-- Matériels et méthodes
-- Résultats et discussions
+- Matériels
+- Méthodes
+- Résultats
+- Discussions
 - Conclusion
 - Ouverture et perspectives
 - Références
