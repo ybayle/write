@@ -12,6 +12,7 @@
 - Pour faciliter la relecture, la correction et le travail à plusieurs lors d'une rédaction avec latex, il faut une phrase par ligne.
 - Ne pas utiliser le première personne, excepté dans la section sur les remerciements.
 - Pour les images, [draw.io](https://app.diagrams.net/) a une intégration dans [Microsoft Visual Studio Code](https://code.visualstudio.com/).
+- Pour les fautes, [LanguageTool](https://marketplace.visualstudio.com/items?itemName=adamvoss.vscode-languagetool) a une intégration dans [Microsoft Visual Studio Code](https://code.visualstudio.com/).
 - Mettre un espace avant l'unité qu'on utilise : `20 ms` (pas `20ms`).
 
 ## Plan
