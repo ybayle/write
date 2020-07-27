@@ -12,6 +12,7 @@
 - Pour faciliter la relecture, la correction et le travail à plusieurs lors d'une rédaction avec latex, il faut une phrase par ligne.
 - Ne pas utiliser le première personne, excepté dans la section sur les remerciements.
 - Pour les images, [draw.io](https://app.diagrams.net/) a une intégration dans [Microsoft Visual Studio Code](https://code.visualstudio.com/).
+- Mettre un espace avant l'unité qu'on utilise : `20 ms` (pas `20ms`).
 
 ## Plan
 
@@ -45,3 +46,7 @@
 - Prénoms, noms et rôles des encadrants et partenaires
 - Date
 - Mention ou filigrane confidentiel
+
+## À lire
+
+- [Règles typographiques de base](http://www4.ac-nancy-metz.fr/ien-vittel/docs%20site/outils%20pour%20le%20maitre/regles_typo_version2012.pdf)
