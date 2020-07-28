@@ -4,7 +4,7 @@
 - Citer une source dès qu'il y a une information qui est affirmée ou pour justifier un choix technique.
 - Ne pas commencer les phrases par `en effet`, `car`, `donc`, `parallèlement`, `bien que`, ...
 - Ne pas commencer une phrase par du participe présent (`Étudiant en Master, je ...`)
-- Ne pas utiliser le langage parlé.
+- Ne pas utiliser le langage parlé en évitant `clairement`, `garder à l'esprit`, ...).
 - Être le plus précis possible et éviter `généralement`, `de tout temps`, `à l'heure où`, ...
 - Éviter d'utiliser les parenthèses dans une phrase.
 - Ne pas utiliser `:` au milieu d'une phrase. Les `:` peuvent être utilisés pour introduire une énumération avec des tirets.
