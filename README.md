@@ -1,5 +1,6 @@
 ## Rédaction
 
+- Lire les consignes fournies par les écoles et universités ([Source 1](ConsignesRapport1.pdf) et [Source 2](ConsignesRapport2.pdf)).
 - Utiliser le présent pour rédiger plutôt que le passé ou le mélange du présent et du passé.
 - Citer une source dès qu'il y a une information qui est affirmée ou pour justifier un choix technique.
 - Ne pas commencer les phrases par `en effet`, `car`, `donc`, `parallèlement`, `bien que`, ...
@@ -16,6 +17,7 @@
 - Mettre un espace avant l'unité qu'on utilise : `20 ms` (pas `20ms`).
 - Les notes de bas de pages servent principalement à indiquer la source d'une idée qui est étayée et non pas à essayer de réduire la taille des phrases.
 - `La méthode est basée sur` : `basée` est un anglicisme dans ce sens, il faut utiliser `fondée`. `Basé` ne peut s'utiliser en français qu'avec une localisation  (`L'entreprise est basée à Montpellier`, ...)
+- Réutiliser les informations mises au propre dans les [Comptes Rendu Hebdomadaires](RapportHebdomadaire/crh.pdf).
 
 ## Plan
 
