@@ -21,6 +21,8 @@
 - `La méthode est basée sur` : `basée` est un anglicisme dans ce sens, il faut utiliser `fondée sur`. `Basé` ne peut s'utiliser en français qu'avec une localisation  (`L'entreprise est basée à Montpellier`, ...)
 - Réutiliser les informations mises au propre dans les [Comptes Rendus Hebdomadaires](RapportHebdomadaire/crh.pdf).
 - Chaque phrase doit être concise. Le mot `respectivement` permet facilement de condenser de l'information. On peut par exemple remplacer `Ces comparaisons sont faites avec deux signaux d'entrée différents : i) une sinusoïde de 500 Hz et de 50 mV d'amplitude. Pour comparer les réponses de la diode en régime linéaire et ii) une sinusoïde de 500 Hz et de 950mV d'amplitude. Pour comparer les réponses de la diode en régime de saturation.` par `Ces comparaisons en régime linéaire et saturé sont effectuées avec une sinusoïde de 500 Hz affichant une amplitude de 50 mV et 950 mV respectivement.`
+- Il faut éviter d'avoir deux fois le même mots dans une phrase. Il faut soit reformuler la phrase pour la rendre plus concise, soit la diviser en deux, soit trouver un synonyme. 
+- Il faut être cohérent dans tout le rapport sur l'utilisation des mots. Il est par exemple possible d'utiliser `étude` ou `test` mais la lecture est plus ardue si les deux sont utilisés tour à tour plutôt que si un seul des deux mots est utilisé tout au long du rapport.
 
 ## Plan
 
