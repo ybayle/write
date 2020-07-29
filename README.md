@@ -20,6 +20,7 @@
 - Les notes de bas de pages servent principalement à indiquer la source d'une idée qui est étayée et non à essayer de réduire la taille des phrases dans le texte principal.
 - `La méthode est basée sur` : `basée` est un anglicisme dans ce sens, il faut utiliser `fondée sur`. `Basé` ne peut s'utiliser en français qu'avec une localisation  (`L'entreprise est basée à Montpellier`, ...)
 - Réutiliser les informations mises au propre dans les [Comptes Rendus Hebdomadaires](RapportHebdomadaire/crh.pdf).
+- Chaque phrase doit être concise. Le mot `respectivement` permet facilement de condenser de l'information. On peut par exemple remplacer `Ces comparaisons sont faites avec deux signaux d'entrée différents : i) une sinusoïde de 500 Hz et de 50 mV d'amplitude. Pour comparer les réponses de la diode en régime linéaire et ii) une sinusoïde de 500 Hz et de 950mV d'amplitude. Pour comparer les réponses de la diode en régime de saturation.` par `Ces comparaisons en régime linéaire et saturé sont effectuées avec une sinusoïde de 500 Hz affichant une amplitude de 50 mV et 950 mV respectivement.`
 
 ## Plan
 
