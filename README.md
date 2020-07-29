@@ -1,6 +1,7 @@
 ## Rédaction
 
 - Lire les consignes fournies par les écoles et universités ([Source 1](ConsignesRapport1.pdf) et [Source 2](ConsignesRapport2.pdf)).
+- Un schéma, une figure, un tableau, une équation, un dessin, un graphique, doivent être introduits et commentés dans le texte. Cela n'empêche pas qu'ils puissent être lus et compris en dehors de leur contexte grâce à un titre et des légendes concis et complets.
 - Les nombres inférieurs à 10 doivent être écrit en toutes lettres et non en chiffres (un, deux, trois, quatre, cinq, six, sept, huit, neuf, 10, 11, ...).
 - Utiliser le présent pour rédiger plutôt que le passé ou le mélange du présent et du passé.
 - Citer une source dès qu'il y a une information qui est affirmée ou pour justifier un choix technique.
