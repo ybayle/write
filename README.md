@@ -44,7 +44,7 @@
 
 ## Page de titre
 
-- Nom des structures et logo
+- Nom des structures et logos des universités, des écoles, des laboratoires, d'[Orosys](img/logo_orosys.png) et de [Two notes Audio Engineering](img/logo_twonotes.png)
 - Type de rapport
 - Titre du rapport
 - Prénom et nom de l'écrivain
