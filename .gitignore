@@ -1,0 +1,55 @@
+# Latex
+*.ist
+*.alg
+*.synctex*
+*.lot
+*.acn
+*.gz
+*.pch
+*.gch
+*.glo
+*.aux
+*.blg
+*.glg
+*.out
+*.lof
+*.log
+*.toc
+*.lot
+*.fdb_latexmk
+*.bbl
+*.acr
+*.bak
+*.gls*
+
+# Reaper
+*.rpp
+*.rpp-bak
+*.reapeaks
+
+# MacOsX
+*.DS_Store
+
+# Microsoft Visual Studio Code
+.vscode/
+
+Python
+*.egg-info*
+*.pyc
+__*
+
+# Audacity project
+*.aup
+
+# Misc
+*.code-workspace
+*.*~
+*.bin
+*.exe
+*.dat
+*.exp
+*.psess
+*.VC.db
+*.raw
+*.coverage
+*.pdb
