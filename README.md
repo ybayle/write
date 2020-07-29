@@ -4,20 +4,20 @@
 - Utiliser le présent pour rédiger plutôt que le passé ou le mélange du présent et du passé.
 - Citer une source dès qu'il y a une information qui est affirmée ou pour justifier un choix technique.
 - Ne pas commencer les phrases par `en effet`, `car`, `donc`, `parallèlement`, `bien que`, ...
-- Ne pas commencer une phrase par du participe présent (`Étudiant en Master, je ...`)
-- Ne pas utiliser le langage parlé en évitant `clairement`, `garder à l'esprit`, ...).
-- Être le plus précis possible et éviter `généralement`, `de tout temps`, `à l'heure où`, ...
+- Ne pas commencer une phrase par du participe présent (`Étudiant en Master, je`, ...)
+- Ne pas utiliser le langage oral en évitant `clairement`, `garder à l'esprit`, ...).
+- Être le plus précis possible et éviter `généralement`, `de tout temps`, `à l'heure où`, `intéressant` ...
 - Éviter d'utiliser les parenthèses dans une phrase.
 - Ne pas utiliser `:` au milieu d'une phrase. Les `:` peuvent être utilisés pour introduire une énumération avec des tirets.
-- Ne pas faire d'anglicisme. Il faut utiliser des mots français ou mettre en italique les mots provenant de langues étrangères.
-- Pour faciliter la relecture, la correction et le travail à plusieurs lors d'une rédaction avec latex, il faut une phrase par ligne.
+- Ne pas faire d'anglicisme. Il faut utiliser des mots français ou mettre en italique les mots provenant de langues étrangères sauf s'ils ont été spécifiquement francisés (certains cas en latin notamment).
+- Pour faciliter la relecture, la correction et le travail à plusieurs lors d'une rédaction avec latex, il faut respecter la contrainte d'une phrase par ligne.
 - Ne pas utiliser le première personne, excepté dans la section sur les remerciements.
-- Pour les images, [draw.io](https://app.diagrams.net/) a une intégration dans [Microsoft Visual Studio Code](https://code.visualstudio.com/).
+- Pour les images, [draw.io](https://app.diagrams.net/) fournit une intégration dans [Microsoft Visual Studio Code](https://code.visualstudio.com/).
 - Pour les fautes, [LanguageTool](https://marketplace.visualstudio.com/items?itemName=adamvoss.vscode-languagetool) a une intégration dans [Microsoft Visual Studio Code](https://code.visualstudio.com/).
-- Mettre un espace avant l'unité qu'on utilise : `20 ms` (pas `20ms`).
-- Les notes de bas de pages servent principalement à indiquer la source d'une idée qui est étayée et non pas à essayer de réduire la taille des phrases.
-- `La méthode est basée sur` : `basée` est un anglicisme dans ce sens, il faut utiliser `fondée`. `Basé` ne peut s'utiliser en français qu'avec une localisation  (`L'entreprise est basée à Montpellier`, ...)
-- Réutiliser les informations mises au propre dans les [Comptes Rendu Hebdomadaires](RapportHebdomadaire/crh.pdf).
+- Mettre un espace avant l'unité qu'on utilise : `20 ms` (et non `20ms`).
+- Les notes de bas de pages servent principalement à indiquer la source d'une idée qui est étayée et non à essayer de réduire la taille des phrases dans le texte principal.
+- `La méthode est basée sur` : `basée` est un anglicisme dans ce sens, il faut utiliser `fondée sur`. `Basé` ne peut s'utiliser en français qu'avec une localisation  (`L'entreprise est basée à Montpellier`, ...)
+- Réutiliser les informations mises au propre dans les [Comptes Rendus Hebdomadaires](RapportHebdomadaire/crh.pdf).
 
 ## Plan
 
@@ -47,7 +47,7 @@
 - Nom des structures et logo
 - Type de rapport
 - Titre du rapport
-- Prénom et nom de l'écrivain
+- Prénom et nom de l'auteur
 - Prénoms, noms et rôles des encadrants et partenaires
 - Date
 - Mention ou filigrane confidentiel
