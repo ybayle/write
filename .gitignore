@@ -21,6 +21,11 @@
 *.acr
 *.bak
 *.gls*
+*.fls
+*.dvi
+
+# LTSpice
+*.ltspice
 
 # Reaper
 *.rpp
@@ -31,7 +36,7 @@
 *.DS_Store
 
 # Microsoft Visual Studio Code
-.vscode/
+.vscode/*
 
 Python
 *.egg-info*
