@@ -38,10 +38,14 @@
 # Microsoft Visual Studio Code
 .vscode/*
 
-Python
+# Python
 *.egg-info*
 *.pyc
 __*
+*/build/*
+*.egg-info/*
+*/dist/*
+*.coverage
 
 # Audacity project
 *.aup
