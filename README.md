@@ -9,9 +9,9 @@
 - Il doit y avoir en français une virgule pas un point pour écrire les chiffres après la virgule.
 - Ne pas commencer les phrases par `en effet`, `car`, `donc`, `parallèlement`, `bien que`, ...
 - Ne pas commencer une phrase par du participe présent (`Étudiant en Master, je`, ...).
-- Ne pas utiliser le langage oral en évitant `clairement`, `garder à l'esprit`, ...).
+- Ne pas utiliser le langage oral en évitant (`clairement`, `garder à l'esprit`, ...).
 - Éviter les mots subjectifs (`meilleur`, `intéressant`, `gênant`, ...).
-- Être le plus précis possible et éviter `généralement`, `de tout temps`, `à l'heure où`, `intéressant` ...
+- Être le plus précis possible et éviter `généralement`, `de tout temps`, `à l'heure où`, `intéressant`, `longtemps`, ...
 - Éviter d'utiliser les parenthèses dans une phrase.
 - Ne pas utiliser `:` au milieu d'une phrase. Les `:` peuvent être utilisés pour introduire une énumération avec des tirets.
 - Ne pas faire d'anglicisme. Il faut utiliser des mots français ou mettre en italique les mots provenant de langues étrangères sauf s'ils ont été spécifiquement francisés (certains cas en latin notamment).
