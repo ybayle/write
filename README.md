@@ -5,6 +5,8 @@
 - Les nombres inférieurs à 10 doivent être écrit en toutes lettres et non en chiffres (un, deux, trois, quatre, cinq, six, sept, huit, neuf, 10, 11, ...).
 - Utiliser le présent pour rédiger plutôt que le passé ou le mélange du présent et du passé.
 - Citer une source dès qu'il y a une information qui est affirmée ou pour justifier un choix technique.
+- Ne pas mettre de virgule avant `et`.
+- Il doit y avoir en français une virgule pas un point pour écrire les chiffres après la virgule.
 - Ne pas commencer les phrases par `en effet`, `car`, `donc`, `parallèlement`, `bien que`, ...
 - Ne pas commencer une phrase par du participe présent (`Étudiant en Master, je`, ...).
 - Ne pas utiliser le langage oral en évitant `clairement`, `garder à l'esprit`, ...).
