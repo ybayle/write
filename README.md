@@ -30,6 +30,8 @@
 
 ## Plan
 
+- Page de garde
+- Summary (Résumé en anglais sur une demi-page environ)
 - Préambule (ou Avant-propos)
 - Remerciements
 - Table des matières
