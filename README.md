@@ -1,6 +1,10 @@
 - [Rapport de stage](#Rapport-de-stage)
+    - [Rédaction](#rédaction)
+    - [Plan](#Plan)
+    - [Page de titre](#Page-de-titre)
+    - [À lire](#À-lire)
 - [Soutenance](#Soutenance)
-- [Fiche d'évaluation du stage par le tuteur en entreprise](#Fiche-d'evaluation-du-stage-par-le-tuteur-en-entreprise)
+- [Fiche d'évaluation du stage par le tuteur en entreprise](#fiche-dévaluation-du-stage-par-le-tuteur-en-entreprise)
 
 # Rapport de stage
 
