@@ -1,6 +1,12 @@
+- [Rapport de stage](#Rapport-de-stage)
+- [Soutenance](#Soutenance)
+- [Fiche d'évaluation du stage par le tuteur en entreprise](#Fiche-d'évaluation-du-stage-par-le-tuteur-en-entreprise)
+
+# Rapport de stage
+
 ## Rédaction
 
-- Lire les consignes fournies par les écoles et universités ([Source 1](ConsignesRapport1.pdf) et [Source 2](ConsignesRapport2.pdf)).
+- Lire les consignes fournies par les écoles et universités ([Source 1](ConsignesRapport/ConsignesRapport1.pdf) et [Source 2](ConsignesRapport/ConsignesRapport2.pdf)).
 - Un schéma, une figure, un tableau, une équation, un dessin, un graphique, doivent être introduits et commentés dans le texte. Cela n'empêche pas qu'ils puissent être lus et compris en dehors de leur contexte grâce à un titre et des légendes concis et complets.
 - Les nombres inférieurs à 10 doivent être écrit en toutes lettres et non en chiffres (un, deux, trois, quatre, cinq, six, sept, huit, neuf, 10, 11, ...).
 - Utiliser le présent pour rédiger plutôt que le passé ou le mélange du présent et du passé.
@@ -27,6 +33,7 @@
 - Il faut éviter d'avoir deux fois le même mots dans une phrase. Il faut soit reformuler la phrase pour la rendre plus concise, soit la diviser en deux, soit trouver un synonyme. 
 - Il faut être cohérent dans tout le rapport sur l'utilisation des mots. Il est par exemple possible d'utiliser `étude` ou `test` mais la lecture est plus ardue si les deux sont utilisés tour à tour plutôt que si un seul des deux mots est utilisé tout au long du rapport.
 - Ne pas écrire `La figure 2 compare ...` car ce n'est pas la figure qui compare. La figure représente plusieurs y en fonction d'un x et c'est un être humain qui compare.
+- Il faut éviter de commencer les phrases par un verbe. Au lieu de `Obtenir ce résultat`, il est préférable d'avoir `L'obtention de ce résultat`.
 
 ## Plan
 
@@ -66,3 +73,11 @@
 ## À lire
 
 - [Règles typographiques de base](http://www4.ac-nancy-metz.fr/ien-vittel/docs%20site/outils%20pour%20le%20maitre/regles_typo_version2012.pdf)
+
+# Soutenance
+
+- Lire les consignes fournies par les écoles et universités ([Source 1](ConsignesSoutenance/ConsignesSoutenance1.pdf)).
+
+# Fiche d'évaluation du stage par le tuteur en entreprise
+
+- Lire les éléments qui sont évalués par le tuteur et pris en considération par les enseignants ([Source 1](FicheEvaluationStageParTuteurEntreprise/FicheEvaluationStageParTuteurEntreprise1.pdf) et [Source 2](FicheEvaluationStageParTuteurEntreprise/FicheEvaluationStageParTuteurEntreprise2.pdf)).
