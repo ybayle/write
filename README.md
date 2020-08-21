@@ -11,6 +11,7 @@
 ## Rédaction
 
 - Lire les consignes fournies par les écoles et universités ([Source 1](ConsignesRapport/ConsignesRapport1.pdf) et [Source 2](ConsignesRapport/ConsignesRapport2.pdf)).
+- Il faut entre 3 semaines à temps plein pour rédiger un rapport de stage de 6 mois de 40-50 pages et 3 mois pour rédiger un mémoire de thèse de 200 pages, ce qui représente entre 3 et 5 pages par jour. /!\ Attention c'est une moyenne et il faut le considérer comme telle.
 - Un schéma, une figure, un tableau, une équation, un dessin, un graphique, doivent être introduits et commentés dans le texte. Cela n'empêche pas qu'ils puissent être lus et compris en dehors de leur contexte grâce à un titre et des légendes concis et complets.
 - Les nombres inférieurs à 10 doivent être écrit en toutes lettres et non en chiffres (un, deux, trois, quatre, cinq, six, sept, huit, neuf, 10, 11, ...).
 - Utiliser le présent pour rédiger plutôt que le passé ou le mélange du présent et du passé.
