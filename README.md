@@ -47,7 +47,7 @@
 
 - Page de garde
 - Summary (Résumé en anglais sur une demi-page environ)
-- Préambule (ou Avant-propos)
+- Préambule (ou l'Avant-propos est une section facultative)
 - Remerciements
 - Table des matières
 - Introduction
@@ -62,11 +62,11 @@
 - Conclusion
 - Ouverture et perspectives
 - Références
-- Table des figures
-- Table des tableaux
-- Glossaire
+- Liste des figures
+- Liste des tableaux
 - Liste des acronymes
-- Annexes
+- Glossaire
+- Annexes (facultatif)
 
 ## Page de titre
 
