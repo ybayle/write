@@ -5,6 +5,7 @@
     - [À lire](#À-lire)
 - [Soutenance](#Soutenance)
 - [Fiche d'évaluation du stage par le tuteur en entreprise](#fiche-dévaluation-du-stage-par-le-tuteur-en-entreprise)
+- [Après le stage](#après-le-stage)
 
 # Rapport de stage
 
@@ -88,3 +89,7 @@
 # Fiche d'évaluation du stage par le tuteur en entreprise
 
 - Lire les éléments qui sont évalués par le tuteur et pris en considération par les enseignants ([Source 1](FicheEvaluationStageParTuteurEntreprise/FicheEvaluationStageParTuteurEntreprise1.pdf) et [Source 2](FicheEvaluationStageParTuteurEntreprise/FicheEvaluationStageParTuteurEntreprise2.pdf)).
+
+# Après le stage
+
+[Après le stage](ApresStage.md)
