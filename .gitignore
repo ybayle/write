@@ -23,6 +23,8 @@
 *.gls*
 *.fls
 *.dvi
+*.xwm
+*.brf
 
 # LTSpice
 *.ltspice
