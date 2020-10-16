@@ -18,6 +18,8 @@
         "*.gls",
         "*.fls",
         "*.log",
+        "*.xwm",
+        "*.brf",
         "*.fdb_latexmk",
         "*.snm",
         "*.synctex(busy)",
@@ -29,11 +31,27 @@
     ],
     "latex-workshop.latex.recipes": [
         {
-            "name": "pdflatex ➞ makeglossaries ➞ bibtex ➞ pdflatex × 2",
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "pdflatex ➞ makeglossaries ➞ bibtex ➞ pdflatex × 3",
             "tools": [
                 "pdflatex",
                 "makeglossaries",
                 "bibtex",
+                "pdflatex",
                 "pdflatex",
                 "pdflatex"
             ]
@@ -54,15 +72,6 @@
             "name": "latexmk (lualatex)",
             "tools": [
                 "lualatexmk"
-            ]
-        },
-        {
-            "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
-            "tools": [
-                "pdflatex",
-                "bibtex",
-                "pdflatex",
-                "pdflatex"
             ]
         },
         {

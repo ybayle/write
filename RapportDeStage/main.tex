@@ -16,9 +16,7 @@
 \usepackage{soul}
 \usepackage{longtable,booktabs}
 \usepackage{listings}
-\usepackage{gensymb}
 \usepackage{mathtools}
-\usepackage{geometry}
 \usepackage{textgreek}
 \usepackage{svg}
 \usepackage{subcaption}
@@ -26,9 +24,12 @@
 \usepackage[automake]{glossaries}  % handle acronyms and glossary
 \usepackage[numbib,nottoc]{tocbibind}
 \usepackage{fancyhdr}
-\usepackage[printwatermark]{xwatermark}
+% \usepackage[printwatermark]{xwatermark}
 \usepackage{xcolor}
 \usepackage{etoolbox}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{cleveref}
 \makeatletter
 \patchcmd{\BR@backref}{\newblock}{\newblock(page~}{}{}
 \patchcmd{\BR@backref}{\par}{)\par}{}{}
@@ -40,7 +41,7 @@
     urlcolor={blue!60!black}     % url
 }
 
-\newwatermark[allpages,color=red!10,angle=60,scale=4.4,xpos=-20,ypos=10]{CONFIDENTIEL}
+% \newwatermark[allpages,color=red!10,angle=60,scale=4.4,xpos=-20,ypos=10]{CONFIDENTIEL}
 
 \newenvironment{changemargin}[2]{%
 \begin{list}{}{%
@@ -214,7 +215,7 @@ English summary.
 \newpage
 \section*{Avant-propos}
 
-Avant-propos pptionnel.
+Avant-propos optionnel.
 
 \newpage
 \section*{Remerciements}
@@ -259,8 +260,8 @@ Exemple de double figure.
      \caption{Le préamplificateur Le Lead}
     \label{img:leLead}
   \end{subfigure}
-  \label{img:produits_twonotes}
   \caption{Produits commercialisés par Two notes Audio Engineering}
+  \label{img:produits_twonotes}
 \end{figure}
 
 Exemple de citation de la \autoref{img:produits_twonotes}.
@@ -357,27 +358,27 @@ Le \autoref{table:res_networks_test} montre un exemple de tableau.
 
 \addcontentsline{toc}{section}{Liste des acronymes}
 \begin{acronym}[TDMA]
-	\acro{GRU}{\emph{Gated Recurrent Unit}}
+	% \acro{GRU}{\emph{Gated Recurrent Unit}}
 	\acro{LSTM}{\emph{Long Short-Term Memory}}
-	\acro{Bi-LSTM}{\emph{Bi-directionnal LSTM}}
-	\acro{ESR}{\emph{Error-to-Signal Ratio}}
-	\acro{MUSHRA}{\emph{MUltiple Stimuli with Hidden Reference and Anchor}}
-	\acro{MSE}{\emph{Mean-Squarred Error}}
-	\acro{MAE}{\emph{Mean-Absolute Error}}
-	\acro{CC}{\emph{Correlation Coefficient}}
-	\acro{ELU}{\emph{Exponential Linear Unit}}
-	\acro{NRMSE}{\emph{Normalized Root Mean-Squarred Error}}
-	\acro{FFT}{\emph{Fast Fourier Transform}}
-	\acro{CWAFx}{\emph{Convolutional and WaveNet Audio Effects Modeling Network}}
-	\acro{CRAFx}{\emph{Convolutional and Recurrent Audio Effects Modeling Network}}
-	\acro{RAM}{\emph{mémoire vive}}
-	\acro{tanh}{\emph{tangente hyperbolique}}
-	\acro{FLOPS}{\emph{Floating-Point Operations Per Second}}
-	\acro{JSON}{\emph{JavaScript Object Notation}}
-	\acro{XML}{\emph{Extensible Markup Language}}
-	\acro{MIT}{\emph{Massachusetts Institute of Technology}}
-	\acro{BSL}{\emph{Boost Software License}}
-	\acro{CML}{\emph{Continuous Machine Learning}}
+	% \acro{Bi-LSTM}{\emph{Bi-directionnal LSTM}}
+	% \acro{ESR}{\emph{Error-to-Signal Ratio}}
+	% \acro{MUSHRA}{\emph{MUltiple Stimuli with Hidden Reference and Anchor}}
+	% \acro{MSE}{\emph{Mean-Squarred Error}}
+	% \acro{MAE}{\emph{Mean-Absolute Error}}
+	% \acro{CC}{\emph{Correlation Coefficient}}
+	% \acro{ELU}{\emph{Exponential Linear Unit}}
+	% \acro{NRMSE}{\emph{Normalized Root Mean-Squarred Error}}
+	% \acro{FFT}{\emph{Fast Fourier Transform}}
+	% \acro{CWAFx}{\emph{Convolutional and WaveNet Audio Effects Modeling Network}}
+	% \acro{CRAFx}{\emph{Convolutional and Recurrent Audio Effects Modeling Network}}
+	% \acro{RAM}{\emph{mémoire vive}}
+	% \acro{tanh}{\emph{tangente hyperbolique}}
+	% \acro{FLOPS}{\emph{Floating-Point Operations Per Second}}
+	% \acro{JSON}{\emph{JavaScript Object Notation}}
+	% \acro{XML}{\emph{Extensible Markup Language}}
+	% \acro{MIT}{\emph{Massachusetts Institute of Technology}}
+	% \acro{BSL}{\emph{Boost Software License}}
+	% \acro{CML}{\emph{Continuous Machine Learning}}
 \end{acronym} 
 
 \endgroup
