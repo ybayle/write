@@ -20,6 +20,7 @@
         "*.log",
         "*.xwm",
         "*.brf",
+        "*.bcf",
         "*.fdb_latexmk",
         "*.snm",
         "*.synctex(busy)",
@@ -27,12 +28,19 @@
         "*.nav",
         "*.synctex.gz",
         "*.dvi",
+        "*.run.xml",
+        "*-blx.bib",
         "*.ist"
     ],
     "latex-workshop.latex.recipes": [
         {
-            "name": "pdflatex",
+            "name": "pdflatex ➞ makeglossaries ➞ bibtex ➞ pdflatex × 3",
             "tools": [
+                "pdflatex",
+                "makeglossaries",
+                "bibtex",
+                "pdflatex",
+                "pdflatex",
                 "pdflatex"
             ]
         },
@@ -46,13 +54,15 @@
             ]
         },
         {
-            "name": "pdflatex ➞ makeglossaries ➞ bibtex ➞ pdflatex × 3",
+            "name": "pdflatex x 2",
             "tools": [
                 "pdflatex",
-                "makeglossaries",
-                "bibtex",
-                "pdflatex",
-                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "tools": [
                 "pdflatex"
             ]
         },

@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+i",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "\\textit{${TM_SELECTED_TEXT}}"
+        }
+    },
+    {
+        "key": "ctrl+g",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "\\textbf{${TM_SELECTED_TEXT}}"
+        }
+    },
+    {
+        "key": "ctrl+u",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "\\underline{${TM_SELECTED_TEXT}}"
+        }
+    },
+]
