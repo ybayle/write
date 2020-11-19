@@ -42,6 +42,21 @@
 - Il faut être cohérent dans tout le rapport sur l'utilisation des mots. Il est par exemple possible d'utiliser `étude` ou `test` mais la lecture est plus ardue si les deux sont utilisés tour à tour plutôt que si un seul des deux mots est utilisé tout au long du rapport.
 - Ne pas écrire `La figure 2 compare ...` car ce n'est pas la figure qui compare. La figure représente plusieurs y en fonction d'un x et c'est un être humain qui compare.
 - Il faut éviter de commencer les phrases par un verbe. Au lieu de `Obtenir ce résultat`, il est préférable d'avoir `L'obtention de ce résultat`.
+- Si le PDF est trop volumineux, il est possible de le compresser en utilisant la commande suivante :
+
+```
+"C:\Program Files\gs\gs9.53.1\bin\gswin64.exe" -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf
+```
+
+avec comme option de compression `-dPDFSETTINGS` :
+
+```
+0: '/default',
+1: '/prepress',
+2: '/printer',
+3: '/ebook',
+4: '/screen'
+```
 
 ## Plan
 
