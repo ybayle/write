@@ -42,6 +42,7 @@
 - Il faut être cohérent dans tout le rapport sur l'utilisation des mots. Il est par exemple possible d'utiliser `étude` ou `test` mais la lecture est plus ardue si les deux sont utilisés tour à tour plutôt que si un seul des deux mots est utilisé tout au long du rapport.
 - Ne pas écrire `La figure 2 compare ...` car ce n'est pas la figure qui compare. La figure représente plusieurs y en fonction d'un x et c'est un être humain qui compare.
 - Il faut éviter de commencer les phrases par un verbe. Au lieu de `Obtenir ce résultat`, il est préférable d'avoir `L'obtention de ce résultat`.
+- Vérifier l'utilisation des unités avec cette checklist : https://physics.nist.gov/cuu/Units/checklist.html
 - Si le PDF est trop volumineux, il est possible de le compresser en utilisant la commande suivante :
 
 ```
