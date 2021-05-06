@@ -30,7 +30,9 @@
         "*.dvi",
         "*.run.xml",
         "*-blx.bib",
-        "*.ist"
+        "*.ist",
+        "*.tec",
+        "*.glsdefs"
     ],
     "latex-workshop.latex.recipes": [
         {
@@ -61,41 +63,49 @@
             ]
         },
         {
-            "name": "pdflatex",
+            "name": "pdflatex x 1",
             "tools": [
                 "pdflatex"
             ]
         },
         {
-            "name": "latexmk 🔃",
+            "name": "Compress PDF 1/5 default",
             "tools": [
-                "latexmk"
+                "compress1default"
             ]
         },
         {
-            "name": "latexmk (latexmkrc)",
+            "name": "Compress PDF 2/5 prepress",
             "tools": [
-                "latexmk_rconly"
+                "compress2prepress"
             ]
         },
         {
-            "name": "latexmk (lualatex)",
+            "name": "Compress PDF 3/5 printer",
             "tools": [
-                "lualatexmk"
+                "compress3printer"
             ]
         },
         {
-            "name": "Compile Rnw files",
+            "name": "Compress PDF 4/5 e-book",
             "tools": [
-                "rnw2tex",
-                "latexmk"
+                "compress4ebook"
             ]
         },
         {
-            "name": "Compile Jnw files",
+            "name": "Compress PDF 5/5 screen",
             "tools": [
-                "jnw2tex",
-                "latexmk"
+                "compress5screen"
+            ]
+        },
+        {
+            "name": "Compress PDF all",
+            "tools": [
+                "compress1default",
+                "compress2prepress",
+                "compress3printer",
+                "compress4ebook",
+                "compress5screen",
             ]
         }
     ],
@@ -111,6 +121,86 @@
                 "-pdf",
                 "-outdir=%OUTDIR%",
                 "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "compress1default",
+            "command": "C:/Program Files/gs/gs9.54.0/bin/gswin64.exe",
+            "args": [
+                "-sDEVICE=pdfwrite",
+                "-dCompatibilityLevel=1.6",
+                "-dPDFSETTINGS=/default",
+                "-dNOPAUSE",
+                "-dQUIET",
+                "-dBATCH",
+                "-dPrinted=false",
+                "-sOUTPUTFILE=%DOC_W32%_compressed1default.pdf",
+                "%DOC_W32%.pdf"
+            ],
+            "env": {}
+        },
+        {
+            "name": "compress2prepress",
+            "command": "C:/Program Files/gs/gs9.54.0/bin/gswin64.exe",
+            "args": [
+                "-sDEVICE=pdfwrite",
+                "-dCompatibilityLevel=1.6",
+                "-dPDFSETTINGS=/prepress",
+                "-dNOPAUSE",
+                "-dQUIET",
+                "-dBATCH",
+                "-dPrinted=false",
+                "-sOUTPUTFILE=%DOC_W32%_compressed2prepress.pdf",
+                "%DOC_W32%.pdf"
+            ],
+            "env": {}
+        },
+        {
+            "name": "compress3printer",
+            "command": "C:/Program Files/gs/gs9.54.0/bin/gswin64.exe",
+            "args": [
+                "-sDEVICE=pdfwrite",
+                "-dCompatibilityLevel=1.6",
+                "-dPDFSETTINGS=/printer",
+                "-dNOPAUSE",
+                "-dQUIET",
+                "-dBATCH",
+                "-dPrinted=false",
+                "-sOUTPUTFILE=%DOC_W32%_compressed3printer.pdf",
+                "%DOC_W32%.pdf"
+            ],
+            "env": {}
+        },
+        {
+            "name": "compress4ebook",
+            "command": "C:/Program Files/gs/gs9.54.0/bin/gswin64.exe",
+            "args": [
+                "-sDEVICE=pdfwrite",
+                "-dCompatibilityLevel=1.6",
+                "-dPDFSETTINGS=/ebook",
+                "-dNOPAUSE",
+                "-dQUIET",
+                "-dBATCH",
+                "-dPrinted=false",
+                "-sOUTPUTFILE=%DOC_W32%_compressed4ebook.pdf",
+                "%DOC_W32%.pdf"
+            ],
+            "env": {}
+        },
+        {
+            "name": "compress5screen",
+            "command": "C:/Program Files/gs/gs9.54.0/bin/gswin64.exe",
+            "args": [
+                "-sDEVICE=pdfwrite",
+                "-dCompatibilityLevel=1.6",
+                "-dPDFSETTINGS=/screen",
+                "-dNOPAUSE",
+                "-dQUIET",
+                "-dBATCH",
+                "-dPrinted=false",
+                "-sOUTPUTFILE=%DOC_W32%_compressed5screen.pdf",
+                "%DOC_W32%.pdf"
             ],
             "env": {}
         },
