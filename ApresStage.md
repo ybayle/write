@@ -59,3 +59,7 @@
 - Stanford Online
 - Codecademy
 - Open Culture Online Courses
+
+# Qu'est ce qu'un bon ingénieur ML ?
+
+https://dropbox.github.io/dbx-career-framework/overview.html
