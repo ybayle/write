@@ -1,3 +1,4 @@
+- [Installation de l'environnement de travail](#Installation-de-l'environnement-de-travail)
 - [Rapport de stage](#Rapport-de-stage)
     - [Rédaction](#rédaction)
     - [Plan](#Plan)
@@ -6,6 +7,16 @@
 - [Soutenance](#Soutenance)
 - [Fiche d'évaluation du stage par le tuteur en entreprise](#fiche-dévaluation-du-stage-par-le-tuteur-en-entreprise)
 - [Après le stage](#après-le-stage)
+
+# Installation de l'environnement de travail
+
+1. https://strawberryperl.com/
+2. https://miktex.org/download
+3. https://github.com/VSCodium/vscodium/releases
+4. https://github.com/James-Yu/LaTeX-Workshop
+5. https://www.sumatrapdfreader.org/download-free-pdf-viewer
+
+Now you should be able to compile this [example latex](https://github.com/bayle42/write/blob/master/RapportHebdomadaire/crh.tex) in VScodium and see the PDF with SumatraPDF that should be identical to [this generated PDF](https://github.com/bayle42/write/blob/master/RapportHebdomadaire/crh.pdf).
 
 # Rapport de stage
 
