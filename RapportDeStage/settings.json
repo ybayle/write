@@ -1,5 +1,76 @@
 {
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "files.associations": {"*.tnmt" : "xml", "*.tncd" : "xml", "*.tnct" : "xml", "*.tnaw" : "xml", "*.tnnl" : "xml", "*.features": "xml", "*.skel": "xml", "*.sln": "xml" },
+    "xml.fileAssociations": [{
+        "systemId": "C:\\Users\\yannb\\Documents\\GitHub\\TwoNotesSuite\\FileFormat\\XmlComponentDesc.xsd",
+        "pattern": "**/*.tncd"
+        },{
+        "systemId": "C:\\Users\\yannb\\Documents\\GitHub\\TwoNotesSuite\\FileFormat\\XmlNetlistDescription.xsd",
+        "pattern": "**/*.tnnl"
+        },{
+        "systemId": "C:\\Users\\yannb\\Documents\\GitHub\\TwoNotesSuite\\FileFormat\\XmlAudioPluginWrapperDescription.xsd",
+        "pattern": "**/*.tnaw"
+        }
+    ],
+    "python.analysis.logLevel": "Trace",
+    "xml.java.home": "C:\\JDK",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7dW1sO2VyO2JwbW47Zmxvd2NoYXJ0O2Jhc2ljO2Fycm93czJcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjpcIjI0MFwiLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6ODI3LFwiaGVpZ2h0XCI6MTE2OX0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
+    "window.zoomLevel": 0,
+    "python.defaultInterpreterPath": "C:\\python38\\python.exe",
+    "python.linting.enabled": true,
+    "autoDocstring.includeExtendedSummary": true,
+    "autoDocstring.includeName": true,
+    "autoDocstring.startOnNewLine": true,
+    "cSpell.language": "en-GB",
+    "cSpell.enableFiletypes": [
+        "!python",
+        "!latex",
+        "!tex"
+    ],
     "latexCompile.mainFile": "main.tex",
+    "latex-workshop.bibtex-format.tab": "4 spaces",
+    "latex-workshop.chktex.enabled": true,
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "git-commit",
+        "go",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "python",
+        "pug",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yaml",
+        "yml"
+    ],
+    "cSpell.enabled": true,
+    "editor.wordWrap": "on",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
     "latex-workshop.latex.clean.fileTypes": [
         "*.aux",
         "*.bbl",
@@ -18,9 +89,6 @@
         "*.gls",
         "*.fls",
         "*.log",
-        "*.xwm",
-        "*.brf",
-        "*.bcf",
         "*.fdb_latexmk",
         "*.snm",
         "*.synctex(busy)",
@@ -28,11 +96,14 @@
         "*.nav",
         "*.synctex.gz",
         "*.dvi",
+        "*.xwm",
+        "*.brf",
+        "*.bcf",
+        "*.glsdefs",
         "*.run.xml",
         "*-blx.bib",
-        "*.ist",
         "*.tec",
-        "*.glsdefs"
+        "*.ist"
     ],
     "latex-workshop.latex.recipes": [
         {
@@ -66,6 +137,12 @@
             "name": "pdflatex x 1",
             "tools": [
                 "pdflatex"
+            ]
+        },
+        {
+            "name": "makeglossaries x 1",
+            "tools": [
+                "makeglossaries"
             ]
         },
         {
@@ -129,7 +206,7 @@
             "command": "C:/Program Files/gs/gs9.54.0/bin/gswin64.exe",
             "args": [
                 "-sDEVICE=pdfwrite",
-                "-dCompatibilityLevel=1.6",
+                "-dCompatibilityLevel=1.7",
                 "-dPDFSETTINGS=/default",
                 "-dNOPAUSE",
                 "-dQUIET",
@@ -145,7 +222,7 @@
             "command": "C:/Program Files/gs/gs9.54.0/bin/gswin64.exe",
             "args": [
                 "-sDEVICE=pdfwrite",
-                "-dCompatibilityLevel=1.6",
+                "-dCompatibilityLevel=1.7",
                 "-dPDFSETTINGS=/prepress",
                 "-dNOPAUSE",
                 "-dQUIET",
@@ -161,7 +238,7 @@
             "command": "C:/Program Files/gs/gs9.54.0/bin/gswin64.exe",
             "args": [
                 "-sDEVICE=pdfwrite",
-                "-dCompatibilityLevel=1.6",
+                "-dCompatibilityLevel=1.7",
                 "-dPDFSETTINGS=/printer",
                 "-dNOPAUSE",
                 "-dQUIET",
@@ -177,7 +254,7 @@
             "command": "C:/Program Files/gs/gs9.54.0/bin/gswin64.exe",
             "args": [
                 "-sDEVICE=pdfwrite",
-                "-dCompatibilityLevel=1.6",
+                "-dCompatibilityLevel=1.7",
                 "-dPDFSETTINGS=/ebook",
                 "-dNOPAUSE",
                 "-dQUIET",
@@ -193,7 +270,7 @@
             "command": "C:/Program Files/gs/gs9.54.0/bin/gswin64.exe",
             "args": [
                 "-sDEVICE=pdfwrite",
-                "-dCompatibilityLevel=1.6",
+                "-dCompatibilityLevel=1.7",
                 "-dPDFSETTINGS=/screen",
                 "-dNOPAUSE",
                 "-dQUIET",
@@ -278,5 +355,58 @@
             ],
             "env": {}
         }
-    ]
+    ],
+    "latex-workshop.latex.autoBuild.run": "never",
+    "spellchecker.language": "en_US",
+    "languageToolLinter.languageTool.language": "en-GB",
+    "spellright.ignoreRegExpsByClass": {
+        "markdown": [ "/&amp;/g", "/&nbsp;/g" ],
+        "cpp": [ "/#include\\s+\\\".+\\\"/g" ],
+        "html": [ "/<script>[^]*?</script>/gm" ],
+        "latex": [ "/\\\\begin{minted}[^]*?\\\\end{minted}/gm"]
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.pdf": "latex-workshop-pdf-hook"
+    },
+    "cSpell.userWords": [
+        "elasmobranch",
+        "gynandric",
+        "heterodonty",
+        "lstm",
+        "preset",
+        "scyliorhinid",
+        "scyliorhinidés"
+    ],
+    "spellright.language": [
+        "en",
+        "fr"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ],
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "redhat.telemetry.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "r.bracketedPaste": true,
+    "r.rterm.windows": "C:\\python39\\Scripts\\radian.exe",
+    "r.rpath.windows": "C:\\Program Files\\R\\R-4.1.1\\bin\\x64\\R.exe",
+    "r.lsp.debug": true,
+    "r.lsp.diagnostics": true,
+    "r.rterm.option": [
+        "--no-save",
+        "--no-restore",
+        "--r-binary=C:\\Program Files\\R\\R-4.1.1\\bin\\x64\\R.exe"
+    ],
+    "git.confirmSync": false,
+    "latex-workshop.view.pdf.viewer": "external",
+    "latex-workshop.view.pdf.external.viewer.command": "C:\\Users\\Yann\\AppData\\Local\\SumatraPDF\\SumatraPDF.exe",
 }
