@@ -4,6 +4,7 @@
     - [Plan](#Plan)
     - [Page de titre](#Page-de-titre)
     - [À lire](#À-lire)
+    - [Outils](#Outils)
 - [Soutenance](#Soutenance)
 - [Fiche d'évaluation du stage par le tuteur en entreprise](#fiche-dévaluation-du-stage-par-le-tuteur-en-entreprise)
 - [Après le stage](#après-le-stage)
@@ -108,6 +109,12 @@ avec comme option de compression `-dPDFSETTINGS` :
 ## À lire
 
 - [Règles typographiques de base](http://www4.ac-nancy-metz.fr/ien-vittel/docs%20site/outils%20pour%20le%20maitre/regles_typo_version2012.pdf)
+
+## Outils
+
+- [Shape Catcher](http://shapecatcher.com/) Unicode character recognition for Latex
+- [Detexify](http://detexify.kirelabs.org/classify.html) Draw a symbol and latex will give you the code to use it
+- [Latex 4 Technics](https://www.latex4technics.com/) Helper for displaying latex equation
 
 # Soutenance
 
