@@ -51,5 +51,10 @@ Comment corriger un code ?
 
 Tête dans le guidon/prendre du recul/être efficace
 
-parfois on
-en sortant de l'école info/math, on a appris à faire des choses from scratch (réinventer une roue). Dans le monde du travail, on demandera plus souvent de construire une voiture et pour cela de ne pas réinventer la roue. Mais à l'école on n'a pas appris à (i) trouver les gens qui font des roues et (ii) comparer les différentes roues ni (iii) à utiliser/intégreR/mettre en place la roue dans la voiture. et pourtant c'est de ça que sera constitué la majorité de votre travail dans le futur.
+En sortant de l'école info/math, on a appris à faire des choses from scratch (réinventer une roue). Dans le monde du travail, on demandera plus souvent de construire une voiture et pour cela de ne pas réinventer la roue. Mais à l'école on n'a pas appris à (i) trouver les gens qui font des roues et (ii) comparer les différentes roues ni (iii) à utiliser/intégrer/mettre en place la roue dans la voiture. Et pourtant c'est de ça que sera constitué la majorité de votre travail dans le futur.
+
+## Regex
+
+- Regular expression
+- Peu importe le langage ou l'IDE c'est un outil à avoir dans son couteau suisse.
+- https://regex101.com/
