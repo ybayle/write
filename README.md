@@ -1,4 +1,5 @@
 - [Installation de l'environnement de travail](#Installation-de-l'environnement-de-travail)
+- [Trouver des articles](#trouver-des-articles)
 - [Rapport de stage](#Rapport-de-stage)
     - [Rédaction](#rédaction)
     - [Plan](#Plan)
@@ -18,6 +19,10 @@
 5. https://www.sumatrapdfreader.org/download-free-pdf-viewer
 
 Now you should be able to compile this [example latex](https://github.com/bayle42/write/blob/master/RapportHebdomadaire/crh.tex) in VScodium and see the PDF with SumatraPDF that should be identical to [this generated PDF](https://github.com/bayle42/write/blob/master/RapportHebdomadaire/crh.pdf).
+
+# Trouver des articles
+
+![Flowchart article](/img/paper_flowchart.jpg?raw=true "Flowchart article")
 
 # Rapport de stage
 
@@ -98,7 +103,7 @@ avec comme option de compression `-dPDFSETTINGS` :
 
 ## Page de titre
 
-- Nom des structures et logos des universités, des écoles, des laboratoires, d'[Orosys](img/logo_orosys.png) et de [Two notes Audio Engineering](img/logo_twonotes.png)
+- Nom des structures et logos des universités, des écoles, des laboratoires, de l'entreprise et de la marque
 - Type de rapport
 - Titre du rapport
 - Prénom et nom de l'auteur

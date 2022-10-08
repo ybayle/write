@@ -1,18 +1,16 @@
 {
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "files.associations": {"*.tnmt" : "xml", "*.tncd" : "xml", "*.tnct" : "xml", "*.tnaw" : "xml", "*.tnnl" : "xml", "*.features": "xml", "*.skel": "xml", "*.sln": "xml" },
-    "xml.fileAssociations": [{
-        "systemId": "C:\\Users\\yannb\\Documents\\GitHub\\TwoNotesSuite\\FileFormat\\XmlComponentDesc.xsd",
-        "pattern": "**/*.tncd"
-        },{
-        "systemId": "C:\\Users\\yannb\\Documents\\GitHub\\TwoNotesSuite\\FileFormat\\XmlNetlistDescription.xsd",
-        "pattern": "**/*.tnnl"
-        },{
-        "systemId": "C:\\Users\\yannb\\Documents\\GitHub\\TwoNotesSuite\\FileFormat\\XmlAudioPluginWrapperDescription.xsd",
-        "pattern": "**/*.tnaw"
-        }
-    ],
+    "files.associations": {
+        "*.tnmt": "xml",
+        "*.tncd": "xml",
+        "*.tnct": "xml",
+        "*.tnaw": "xml",
+        "*.tnnl": "xml",
+        "*.features": "xml",
+        "*.skel": "xml",
+        "*.sln": "xml"
+    },
     "python.analysis.logLevel": "Trace",
     "xml.java.home": "C:\\JDK",
     "kite.showWelcomeNotificationOnStartup": false,
@@ -187,7 +185,6 @@
         }
     ],
     "latex-workshop.latex.tools": [
-
         {
             "name": "latexmk",
             "command": "latexmk",
@@ -317,7 +314,7 @@
             "name": "makeglossaries",
             "command": "makeglossaries",
             "args": [
-              "%DOCFILE%"
+                "%DOCFILE%"
             ]
         },
         {
@@ -360,10 +357,19 @@
     "spellchecker.language": "en_US",
     "languageToolLinter.languageTool.language": "en-GB",
     "spellright.ignoreRegExpsByClass": {
-        "markdown": [ "/&amp;/g", "/&nbsp;/g" ],
-        "cpp": [ "/#include\\s+\\\".+\\\"/g" ],
-        "html": [ "/<script>[^]*?</script>/gm" ],
-        "latex": [ "/\\\\begin{minted}[^]*?\\\\end{minted}/gm"]
+        "markdown": [
+            "/&amp;/g",
+            "/&nbsp;/g"
+        ],
+        "cpp": [
+            "/#include\\s+\\\".+\\\"/g"
+        ],
+        "html": [
+            "/<script>[^]*?</script>/gm"
+        ],
+        "latex": [
+            "/\\\\begin{minted}[^]*?\\\\end{minted}/gm"
+        ]
     },
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook",
