@@ -24,6 +24,8 @@ Now you should be able to compile this [example latex](https://github.com/bayle4
 
 ![Flowchart article](/img/paper_flowchart.jpg?raw=true "Flowchart article")
 
+[Utiliser Sci-hub directement dans Zotero](https://gagarine.medium.com/use-sci-hub-with-zotero-as-a-fall-back-pdf-resolver-cf139eb2cea7)
+
 # Rapport de stage
 
 ## Rédaction
@@ -31,7 +33,7 @@ Now you should be able to compile this [example latex](https://github.com/bayle4
 - Lire les consignes fournies par les écoles et universités ([Source 1](ConsignesRapport/ConsignesRapport1.pdf) et [Source 2](ConsignesRapport/ConsignesRapport2.pdf)).
 - Il faut 3 semaines à temps plein pour rédiger un rapport de stage de 6 mois de 40-50 pages et 3 mois pour rédiger un mémoire de thèse de 200 pages, ce qui représente entre 3 et 5 pages par jour. /!\ Attention c'est une moyenne et il faut le considérer comme telle.
 - Un schéma, une figure, un tableau, une équation, un dessin, un graphique, doivent être introduits et commentés dans le texte. Cela n'empêche pas qu'ils puissent être lus et compris en dehors de leur contexte grâce à un titre et des légendes concis et complets.
-- Si un schéma, une figure, un tableau, une équation, un dessin ou un graphique est cité, il doit y la source dans la légende.  
+- Si un schéma, une figure, un tableau, une équation, un dessin ou un graphique est cité, il doit y la source dans la légende.
 - Il est possible de générer automatiquement le code latex à partir d'équation en python https://github.com/google/latexify_py.
 - Les nombres inférieurs à 10 doivent être écrit en toutes lettres et non en chiffres (un, deux, trois, quatre, cinq, six, sept, huit, neuf, 10, 11, ...).
 - Utiliser le présent pour rédiger plutôt que le passé ou le mélange du présent et du passé.
@@ -55,7 +57,7 @@ Now you should be able to compile this [example latex](https://github.com/bayle4
 - `La méthode est basée sur` : `basée` est un anglicisme dans ce sens, il faut utiliser `fondée sur`. `Basé` ne peut s'utiliser en français qu'avec une localisation  (`L'entreprise est basée à Montpellier`, ...)
 - Réutiliser les informations mises au propre dans les [Comptes Rendus Hebdomadaires](RapportHebdomadaire/crh.pdf).
 - Chaque phrase doit être concise. Le mot `respectivement` permet facilement de condenser de l'information. On peut par exemple remplacer `Ces comparaisons sont faites avec deux signaux d'entrée différents : i) une sinusoïde de 500 Hz et de 50 mV d'amplitude. Pour comparer les réponses de la diode en régime linéaire et ii) une sinusoïde de 500 Hz et de 950mV d'amplitude. Pour comparer les réponses de la diode en régime de saturation.` par `Ces comparaisons en régime linéaire et saturé sont effectuées avec une sinusoïde de 500 Hz affichant une amplitude de 50 mV et 950 mV respectivement.`
-- Il faut éviter d'avoir deux fois le même mots dans une phrase. Il faut soit reformuler la phrase pour la rendre plus concise, soit la diviser en deux, soit trouver un synonyme. 
+- Il faut éviter d'avoir deux fois le même mots dans une phrase. Il faut soit reformuler la phrase pour la rendre plus concise, soit la diviser en deux, soit trouver un synonyme.
 - Il faut être cohérent dans tout le rapport sur l'utilisation des mots. Il est par exemple possible d'utiliser `étude` ou `test` mais la lecture est plus ardue si les deux sont utilisés tour à tour plutôt que si un seul des deux mots est utilisé tout au long du rapport.
 - Ne pas écrire `La figure 2 compare ...` car ce n'est pas la figure qui compare. La figure représente plusieurs y en fonction d'un x et c'est un être humain qui compare.
 - Il faut éviter de commencer les phrases par un verbe. Au lieu de `Obtenir ce résultat`, il est préférable d'avoir `L'obtention de ce résultat`.
