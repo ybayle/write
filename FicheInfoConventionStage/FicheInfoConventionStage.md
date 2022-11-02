@@ -1,0 +1,24 @@
+- Date de début et fin :
+- Numéro Siret :
+- Numéro SIREN :
+- Code NAF :
+- Adresse :
+- Thématique :
+- Sujet de stage :
+- Fonctions et tâches :
+- Compétences :
+- Confidentiel : Oui
+- Signataire de l'organisme d'accueil :
+- Gratification : Minimum légal en vigueur
+- Nombre de jours travaillés :
+- Durée effective du stage en heure :
+- Nombre d’heures hebdomadaires : 35
+- Nature du travail à fournir après le stage : Rapport de stage et soutenance
+- Modalité de validation du stage : Évaluation tuteur pédagogique
+- Tuteur professionnel : Nom, Prénom, Fonction, Numéro de téléphone, Mail
+- Jours de congés autorisés : 0
+- Commentaire sur le temps de travail : Aucun
+- Modalité de suivi du stagiaire : standup quotidien et compte-rendu hebdomadaire
+- Liste des avantages en nature : Aucun
+- Si le stagiaire doit être présent la nuit, le dimanche ou jours fériés préciser : Non applicable
+- Assurances :
