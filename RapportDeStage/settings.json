@@ -1,6 +1,5 @@
 {
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
     "files.associations": {
         "*.tnmt": "xml",
         "*.tncd": "xml",
@@ -14,9 +13,7 @@
     "python.analysis.logLevel": "Trace",
     "xml.java.home": "C:\\JDK",
     "kite.showWelcomeNotificationOnStartup": false,
-    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7dW1sO2VyO2JwbW47Zmxvd2NoYXJ0O2Jhc2ljO2Fycm93czJcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjpcIjI0MFwiLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6ODI3LFwiaGVpZ2h0XCI6MTE2OX0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
-    "window.zoomLevel": 0,
-    "python.defaultInterpreterPath": "C:\\python38\\python.exe",
+    "python.defaultInterpreterPath": "C:\\pyenv\\Scripts\\python.exe",
     "python.linting.enabled": true,
     "autoDocstring.includeExtendedSummary": true,
     "autoDocstring.includeName": true,
@@ -29,7 +26,8 @@
     ],
     "latexCompile.mainFile": "main.tex",
     "latex-workshop.bibtex-format.tab": "4 spaces",
-    "latex-workshop.chktex.enabled": true,
+    "latex-workshop.linting.chktex.enabled": true,
+    // "latex-workshop.linting.chktex.exec.path": "",
     "cSpell.enabledLanguageIds": [
         "asciidoc",
         "c",
@@ -393,9 +391,6 @@
         "latex",
         "plaintext"
     ],
-    "[xml]": {
-        "editor.defaultFormatter": "DotJoshJohnson.xml"
-    },
     "redhat.telemetry.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     "notebook.cellToolbarLocation": {
@@ -414,5 +409,25 @@
     ],
     "git.confirmSync": false,
     "latex-workshop.view.pdf.viewer": "external",
-    "latex-workshop.view.pdf.external.viewer.command": "C:\\Users\\Yann\\AppData\\Local\\SumatraPDF\\SumatraPDF.exe",
+    "latex-workshop.view.pdf.external.viewer.command": "C:\\Users\\yann\\AppData\\Local\\SumatraPDF\\SumatraPDF.exe",
+    "workbench.colorTheme": "Default Dark+",
+    "sonarlint.ls.javaHome": "c:\\Users\\yann\\.vscode-oss\\extensions\\sonarsource.sonarlint_managed-jre\\jre\\jdk-11.0.15+10-jre",
+    "explorer.confirmDragAndDrop": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": true,
+    },
+    "python.testing.pytestArgs": [
+        "-s",
+    ],
+    "markdown.marp.enableHtml": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
 }
