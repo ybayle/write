@@ -26,6 +26,8 @@ Now you should be able to compile this [example latex](https://github.com/bayle4
 
 [Utiliser Sci-hub directement dans Zotero](https://gagarine.medium.com/use-sci-hub-with-zotero-as-a-fall-back-pdf-resolver-cf139eb2cea7)
 
+![Liens utiles](/img/usefule_links.jpg?raw=true "Liens utiles")
+
 # Rapport de stage
 
 ## Rédaction

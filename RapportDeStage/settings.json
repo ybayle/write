@@ -430,4 +430,5 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "terminal.integrated.enableMultiLinePasteWarning": false,
+    "git-graph.repository.fetchAndPrune": true,
 }
