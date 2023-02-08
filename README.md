@@ -2,6 +2,7 @@
 - [Trouver des articles](#trouver-des-articles)
 - [Rapport de stage](#Rapport-de-stage)
     - [Rédaction](#rédaction)
+    - [Images](#images)
     - [Plan](#Plan)
     - [Page de titre](#Page-de-titre)
     - [À lire](#À-lire)
@@ -79,6 +80,12 @@ avec comme option de compression `-dPDFSETTINGS` :
 3: '/ebook',
 4: '/screen'
 ```
+
+## Images
+
+Il est préférable d'utiliser des palettes de couleurs permettant une lecture des figures par le plus de personnes possibles. Plus de détails ici https://www.nature.com/articles/s41467-020-19160-7.
+
+![Palette de couleurs recommandées](/img/color.jpg?raw=true "Palette de couleurs recommandées")
 
 ## Plan
 
