@@ -13,7 +13,6 @@
     "python.analysis.logLevel": "Trace",
     "xml.java.home": "C:\\JDK",
     "kite.showWelcomeNotificationOnStartup": false,
-    "python.defaultInterpreterPath": "C:\\pyenv\\Scripts\\python.exe",
     "python.linting.enabled": true,
     "autoDocstring.includeExtendedSummary": true,
     "autoDocstring.includeName": true,
@@ -398,14 +397,14 @@
         "jupyter-notebook": "left"
     },
     "r.bracketedPaste": true,
-    "r.rterm.windows": "C:\\python39\\Scripts\\radian.exe",
-    "r.rpath.windows": "C:\\Program Files\\R\\R-4.1.1\\bin\\x64\\R.exe",
+    "r.rterm.windows": "C:\\git\\reefpulse\\venv\\Scripts\\radian.exe",
+    "r.rpath.windows": "C:\\Program Files\\R\\R-4.2.1\\bin\\x64\\R.exe",
     "r.lsp.debug": true,
     "r.lsp.diagnostics": true,
     "r.rterm.option": [
         "--no-save",
         "--no-restore",
-        "--r-binary=C:\\Program Files\\R\\R-4.1.1\\bin\\x64\\R.exe"
+        "--r-binary=C:\\Program Files\\R\\R-4.2.1\\bin\\x64\\R.exe"
     ],
     "git.confirmSync": false,
     "latex-workshop.view.pdf.viewer": "external",
@@ -431,4 +430,6 @@
     "files.trimFinalNewlines": true,
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "git-graph.repository.fetchAndPrune": true,
+    "git.autofetch": true,
+    "r.plot.useHttpgd": true,
 }
