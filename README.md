@@ -137,6 +137,8 @@ Il est préférable d'utiliser des palettes de couleurs permettant une lecture d
 
 ## Outils
 
+- [PaperPal](https://paperpal.com/) Suggestion de rédaction en anglais, gratuit
+- [Grammarly](https://grammarly.com) Suggestion de rédaction multilangue, payant
 - [Shape Catcher](http://shapecatcher.com/) Unicode character recognition for Latex
 - [Detexify](http://detexify.kirelabs.org/classify.html) Draw a symbol and latex will give you the code to use it
 - [Latex 4 Technics](https://www.latex4technics.com/) Helper for displaying latex equation
