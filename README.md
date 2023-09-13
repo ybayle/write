@@ -96,6 +96,8 @@ Il est préférable d'utiliser des palettes de couleurs permettant une lecture d
 
 ![Palette de couleurs recommandées](/img/color.jpg?raw=true "Palette de couleurs recommandées")
 
+![Conseils sur les images](/img/images.jpg?raw=true "Conseils sur les images")
+
 ## Plan
 
 - Page de garde
