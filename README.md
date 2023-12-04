@@ -15,7 +15,9 @@
 
 1. https://strawberryperl.com/
 2. https://miktex.org/download
-3. https://github.com/VSCodium/vscodium/releases
+3. https://github.com/VSCodium/vscodium/releases and then install the following extension:
+3.1. LTeX https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex for spell checking
+3.2. Draw.io Integration by hediet for graphs
 4. https://github.com/James-Yu/LaTeX-Workshop
 5. https://www.sumatrapdfreader.org/download-free-pdf-viewer
 
