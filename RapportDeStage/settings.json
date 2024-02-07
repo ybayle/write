@@ -135,6 +135,18 @@
             ]
         },
         {
+            "name": "latexmk x 1",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "lualatexmk x 1",
+            "tools": [
+                "lualatexmk"
+            ]
+        },
+        {
             "name": "makeglossaries x 1",
             "tools": [
                 "makeglossaries"
@@ -197,7 +209,7 @@
         },
         {
             "name": "compress1default",
-            "command": "C:/Program Files/gs/gs9.54.0/bin/gswin64.exe",
+            "command": "C:/Program Files/gs/gs9.56.1/bin/gswin64.exe",
             "args": [
                 "-sDEVICE=pdfwrite",
                 "-dCompatibilityLevel=1.7",
@@ -213,7 +225,7 @@
         },
         {
             "name": "compress2prepress",
-            "command": "C:/Program Files/gs/gs9.54.0/bin/gswin64.exe",
+            "command": "C:/Program Files/gs/gs9.56.1/bin/gswin64.exe",
             "args": [
                 "-sDEVICE=pdfwrite",
                 "-dCompatibilityLevel=1.7",
@@ -229,7 +241,7 @@
         },
         {
             "name": "compress3printer",
-            "command": "C:/Program Files/gs/gs9.54.0/bin/gswin64.exe",
+            "command": "C:/Program Files/gs/gs9.56.1/bin/gswin64.exe",
             "args": [
                 "-sDEVICE=pdfwrite",
                 "-dCompatibilityLevel=1.7",
@@ -245,7 +257,7 @@
         },
         {
             "name": "compress4ebook",
-            "command": "C:/Program Files/gs/gs9.54.0/bin/gswin64.exe",
+            "command": "C:/Program Files/gs/gs9.56.1/bin/gswin64.exe",
             "args": [
                 "-sDEVICE=pdfwrite",
                 "-dCompatibilityLevel=1.7",
@@ -261,7 +273,7 @@
         },
         {
             "name": "compress5screen",
-            "command": "C:/Program Files/gs/gs9.54.0/bin/gswin64.exe",
+            "command": "C:/Program Files/gs/gs9.56.1/bin/gswin64.exe",
             "args": [
                 "-sDEVICE=pdfwrite",
                 "-dCompatibilityLevel=1.7",
@@ -398,27 +410,40 @@
     },
     "r.bracketedPaste": true,
     "r.rterm.windows": "C:\\git\\reefpulse\\venv\\Scripts\\radian.exe",
-    "r.rpath.windows": "C:\\Program Files\\R\\R-4.2.1\\bin\\x64\\R.exe",
+    "r.rpath.windows": "C:\\Program Files\\R\\R-4.3.2\\bin\\x64\\R.exe",
     "r.lsp.debug": true,
     "r.lsp.diagnostics": true,
     "r.rterm.option": [
         "--no-save",
         "--no-restore",
-        "--r-binary=C:\\Program Files\\R\\R-4.2.1\\bin\\x64\\R.exe"
+        "--r-binary=C:\\Program Files\\R\\R-4.3.2\\bin\\x64\\R.exe"
     ],
     "git.confirmSync": false,
     "latex-workshop.view.pdf.viewer": "external",
     "latex-workshop.view.pdf.external.viewer.command": "C:\\Users\\yann\\AppData\\Local\\SumatraPDF\\SumatraPDF.exe",
     "workbench.colorTheme": "Default Dark+",
-    "sonarlint.ls.javaHome": "c:\\Users\\yann\\.vscode-oss\\extensions\\sonarsource.sonarlint_managed-jre\\jre\\jdk-11.0.15+10-jre",
+    "sonarlint.ls.javaHome": "C:\\Program Files\\Java\\jdk-21",
     "explorer.confirmDragAndDrop": false,
     "editor.unicodeHighlight.nonBasicASCII": false,
-    "python.formatting.provider": "black",
     "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
     "[html]": {
         "editor.formatOnSave": true,
         "editor.formatOnPaste": true,
         "editor.formatOnType": true,
+    },
+    "[latex]": {
+        "editor.formatOnSave": false,
+        "editor.formatOnPaste": false,
+        "editor.formatOnType": false,
+    },
+    "[bibtex]": {
+        "editor.formatOnSave": false,
+        "editor.formatOnPaste": false,
+        "editor.formatOnType": false,
     },
     "python.testing.pytestArgs": [
         "-s",
@@ -432,4 +457,11 @@
     "git-graph.repository.fetchAndPrune": true,
     "git.autofetch": true,
     "r.plot.useHttpgd": true,
+    "http.proxyAuthorization": null,
+    "http.proxySupport": "on",
+    "jupyter.askForKernelRestart": false,
+    "editor.largeFileOptimizations": false,
+    "ltex.language": "en-GB",
+    "notebook.lineNumbers": "on",
+    "git.enableSmartCommit": true,
 }
