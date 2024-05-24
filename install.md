@@ -1,7 +1,7 @@
 # Setup latex to be used on VSCodium
 
 1. Download and install https://strawberryperl.com/
-2. Download and install https://miktex.org/download
+2. Download and install https://miktex.org/download : install for "all" not only for the "user"
 
     2.1. Open Miktex
 
