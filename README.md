@@ -142,6 +142,12 @@ Il est préférable d'utiliser des palettes de couleurs permettant une lecture d
 # Soutenance
 
 - Lire les consignes fournies par les écoles et universités ([Source 1](ConsignesSoutenance/ConsignesSoutenance1.pdf)).
+- Comme pour la rédaction du rapport ou pour écrire du code, il faut d'abord écrire le plan de la soutenance, le faire valider puis faire les diapositives.
+- Prévoir environ 1 minute par slide. Moins pour la diapo d'intro, de remerciements et de sources mais plus pour les diapo techniques mais 1 minute est l'ordre de grandeur à garder en tête.
+- Répéter seul d'abord puis devant d'autres personnes pour avoir des retours sur le fond et la forme.
+- Si la soutenance se fait en visio, ne pas partager tout l'écran mais uniquement le pdf ou le ppt. Cela évite d'avoir d'autres fenêtres (mail, signal, whatsapp...) sur lesquelles vous recevez des messages pro ou perso qui sont affichés à tout le monde.
+- Vous pouvez enregistrer la soutenance si elle se fait en visio avec https://obsproject.com/
+- Sauvegarder le pdf des diapos de la soutenance.
 
 # Fiche d'évaluation du stage par le tuteur en entreprise
 
