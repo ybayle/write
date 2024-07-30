@@ -29,7 +29,7 @@ Tout ne s'applique pas forcément à tout les domaines (info vs élec).
         - src/
         - schémas/
         - scripts/
-        - 
+        -
 
 - surtout pour éviter les dossier "misc" fourre-tout et de ne pas s'y retrouver si on n'est pas revenu sur le projet depuis 10 jours.
 - Ne pas hésiter à compléter ce document.
@@ -42,7 +42,7 @@ Sinon ce qu'il se passe c'est qu'on se retrouve la tête dans le guidon et quand
 Comment corriger un code ?
 
 1. Reproduire le bug
-2. Isoler le plus possible ce qui produit le bug. Dans un workflow/pipeline (code vertical) c'est enlever des étapes de manières dichotomique p(pour aller plus vite) pour savoir quelle étape produit le bug. Dans un code horizontal, c'est trouver le moment où ça se produit. Dans une machine à état, il faut trouver l'état ou la combinaison qui produit le bug
+2. Isoler le plus possible ce qui produit le bug. Dans un workflow/pipeline (code vertical) c'est enlever des étapes de manières dichotomique p(pour aller plus vite) pour savoir quelle étape produit le bug. Dans un code horizontal, c'est trouver le moment où ça se produit. Dans une machine à état, il faut trouver l'état ou la combinaison qui produit le bug. https://en.wikipedia.org/wiki/Minimal_reproducible_example
 3. Une fois que les conditions minimum ont été établies, on peut commencer à lire du code pour préciser ou il se trouve. Une fois que le bug est trouvé :
 4. Le corriger. 90 %  du temps corriger un bug consiste à modifier un caractère ou une ligne. LE reste du temps ça implique des choses plus complexes comme du code supplémentaire ou du refactoring.
 5. une fois que c'est corrigé, il faut vérifier que dans la condition qui produisait le bug de manière systématique, le bug n'apparaît plus.
