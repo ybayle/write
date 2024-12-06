@@ -1,17 +1,21 @@
 # Setup latex to be used on VSCodium
 
 1. Download and install https://strawberryperl.com/
-2. Download and install https://miktex.org/download : install for "all" not only for the "user"
+   (MSI version)
+3. Download and install https://miktex.org/download : install for "all" not only for the "user"
 
     2.1. Open Miktex
 
     2.2. Switch to the administrator mode
     ![Alt text](img/install/miktex.png)
+   
     2.3 Click on the button to check for package updates.
-3. Download and install https://github.com/James-Yu/LaTeX-Workshop
-4. Download and install https://www.sumatrapdfreader.org/download-free-pdf-viewer
-5. Download and install https://github.com/VSCodium/vscodium/releases
-6. In VSCodium install the extension `LTeX` https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex for spell checking as depicted below:
+4. Download and install https://github.com/James-Yu/LaTeX-Workshop
+   (LaTex-Workshop is available on VSCodium extension if VSCodium is already install on your computer)
+5. Download and install https://www.sumatrapdfreader.org/download-free-pdf-viewer
+   (64-bit builds version)
+7. Download and install https://github.com/VSCodium/vscodium/releases
+8. In VSCodium install the extension `LTeX` https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex for spell checking as depicted below:
 
 ![Alt text](img/install/image1.png)
 
