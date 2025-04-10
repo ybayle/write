@@ -1,4 +1,5 @@
 {
+    "scm.showHistoryGraph": false,
     "telemetry.telemetryLevel": "off",
     "files.associations": {
         "*.tnmt": "xml",
@@ -66,6 +67,7 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
+    "latex-workshop.latex.clean.method": "glob",
     "latex-workshop.latex.clean.fileTypes": [
         "*.aux",
         "*.bbl",
@@ -150,6 +152,24 @@
             "name": "makeglossaries x 1",
             "tools": [
                 "makeglossaries"
+            ]
+        },
+        {
+            "name": "report client (biblatex)",
+            "tools": [
+                "pdflatex",
+                "makeglossaries",
+                "biber",
+                "pdflatex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "biber",
+            "tools": [
+                "biber",
+                "pdflatex"
             ]
         },
         {
@@ -335,6 +355,14 @@
             "env": {}
         },
         {
+            "name": "biber",
+            "command": "biber",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
             "name": "rnw2tex",
             "command": "Rscript",
             "args": [
@@ -449,11 +477,11 @@
         "-s",
     ],
     "markdown.marp.enableHtml": true,
-    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.ignoreTrimWhitespace": true,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
     "git-graph.repository.fetchAndPrune": true,
     "git.autofetch": true,
     "r.plot.useHttpgd": true,
@@ -464,4 +492,11 @@
     "ltex.language": "en-GB",
     "notebook.lineNumbers": "on",
     "git.enableSmartCommit": true,
+    "git.postCommitCommand": "push",
+    "beautify.config": "",
+    "editor.rulers": [
+        88
+    ],
+    "notebook.output.scrolling": true,
+    "diffEditor.maxComputationTime": 0
 }
